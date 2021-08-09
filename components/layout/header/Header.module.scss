@@ -1,0 +1,53 @@
+$primary-color: #006747;
+.header {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 8px #34ab701a;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 1020;
+
+  .link {
+    color: #000000;
+    font-size: .9rem;
+    font-weight: 500;
+    padding: 0.3rem 14px;
+    cursor: pointer;
+    white-space: nowrap;
+    border: 2px solid transparent;
+    transition: 1s ease-in-out !important;
+  }
+  .link:hover {
+    color: $primary-color !important;
+  }
+  .activeLink {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0.4rem 14px;
+    color: $primary-color !important;
+    position: relative;
+    border: 2px solid $primary-color;
+    transition: 1s ease-in-out !important;
+    border-radius: 24px;
+  }
+  .languageChanger {
+    max-width: 122px;
+    height: 36px;
+  }
+  .profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  // .activeLink::after {
+  //   content: "";
+  //   width: 0 !important;
+  //   height: 0 !important;
+  // }
+  .activeLink {
+    border: none !important;
+  }
+}
