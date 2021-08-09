@@ -12,6 +12,7 @@
     "@stripe/react-stripe-js": "^1.4.1",
     "@stripe/stripe-js": "^1.15.0",
     "axios": "^0.21.1",
+    "bufferutil": "^4.0.3",
     "moment": "^2.29.1",
     "multiselect-react-dropdown": "^2.0.4",
     "next": "10.2.3",
