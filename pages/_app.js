@@ -65,6 +65,7 @@ function MyApp({ Component, pageProps }) {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="theme-color" content="#000000" />
       <meta name="robots" content="index, follow" />
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
 
       {/* <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> */}
       {/* <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> */}
